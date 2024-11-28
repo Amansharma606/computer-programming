@@ -3,4 +3,4 @@
 def replace_spaces(s, replacement):
     return s.replace(" ", replacement)
 
-print(replace_spaces("hello world", "-"))  # Output: "hello-world"
+print(replace_spaces("hello world", "-"))  
