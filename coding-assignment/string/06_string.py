@@ -4,4 +4,4 @@ def count_word_occurrences(s, word):
     return s.lower().split().count(word.lower())
 
 
-print(count_word_occurrences("The cat chased the cat", "cat"))  # Output: 2
+print(count_word_occurrences("The cat chased the cat", "cat")) 
