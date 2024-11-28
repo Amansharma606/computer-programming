@@ -1,8 +1,8 @@
-#  Question no 3  Check if a string is a palindrome.
+#  Question no 3  Reverse a list without using built-in functions.
+my_list = [1, 2, 3, 4, 5]
+reversed_list = []
+for i in range(len(my_list) - 1, -1, -1):
+    reversed_list.append(my_list[i])
+print(reversed_list)  
 
-def is_palindrome(s):
-    s = s.lower()  
-    return s == s[::-1]
 
-string = "radar"
-print(is_palindrome(string))
