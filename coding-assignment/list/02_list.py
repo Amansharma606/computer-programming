@@ -1,5 +1,5 @@
-# Question no 2 Count the number of vowels in a string.
+# Question no 2 Remove duplicates from a list.
+my_list = [1, 2, 2, 3, 4, 4, 5]
+unique_list = list(set(my_list))
+print(unique_list)  
 
-string = "Hello World"
-vowel_count = sum(1 for char in string.lower() if char in "aeiou")
-print(vowel_count)  
